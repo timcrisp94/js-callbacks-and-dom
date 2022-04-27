@@ -7,6 +7,7 @@ body {
 
 h2 {
   text-decoration: underline;
+  margin-bottom: 50px;
   
 }
 
@@ -23,7 +24,7 @@ h2 {
   font-weight: 300;
 }
 
-#dom-def {
+.dom-def {
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 50px;
