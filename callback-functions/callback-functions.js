@@ -27,3 +27,16 @@ let wellDrivennCars = cars.filter(car => (car.mileage / car.yrsOld) > 20000)
 
 console.log(wellDrivennCars)
 
+const colors = ['violet', 'red', 'green']
+
+console.log('code before the for each')
+
+setTimeout(function() {
+
+  colors.forEach(function(color, i) {
+    console.log(`${i + 1} - ${color}`)
+  })
+
+}, 2000)
+
+console.log('code AFTER the forEach')
