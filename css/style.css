@@ -1,11 +1,18 @@
 body {
   background-color: blanchedalmond;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: large;
 }
 
 h2 {
-  font-style:;
+  text-decoration: underline;
+  
 }
 
 #callback {
   margin: 100px;
+}
+
+#scenarios, #callbacks-are-hot {
+  font-weight: 300;
 }

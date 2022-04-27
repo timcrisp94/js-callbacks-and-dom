@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script defer src="callback-functions.js"></script>
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500&display=swap" rel="stylesheet">
   <title>Callbacks</title>
 </head>
 <body>
@@ -13,6 +16,20 @@
       <h2>Callbacks</h2>
       <h4>JavaScript is a single threaded language</h4>
       <h4>JavaScript is an event-oriented language</h4>
+      <h4>Two Scenarios require callbacks:</h4>
+      <ol id="scenarios">
+        <li>Functions/methods like forEach and addEventListener can only work if they're given a callback function</li>
+        <li>async operations</li>
+      </ol>
+      <div>
+        <h4>Callback Functions are hot because they provide</h4>
+        <ul id="callbacks-are-hot">
+          <li>reusabilty</li>
+          <li>less code, less vulnerability</li>
+          <li>composable</li>
+          <li>ASYNC</li>
+        </ul>
+      </div>
   </div>
 </body>
 </html>
