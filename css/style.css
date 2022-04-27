@@ -2,6 +2,7 @@ body {
   background-color: blanchedalmond;
   font-family: 'Noto Sans', sans-serif;
   font-size: large;
+  margin: 50px;
 }
 
 h2 {
@@ -9,10 +10,21 @@ h2 {
   
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+}
+
 #callback {
   margin: 100px;
 }
 
-#scenarios, #callbacks-are-hot {
+#scenarios, #callbacks-are-hot, #v8 {
   font-weight: 300;
+}
+
+#dom-def {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
