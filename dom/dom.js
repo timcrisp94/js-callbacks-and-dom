@@ -21,4 +21,14 @@ function getRandomIntInclusive(min, max) {
 img.setAttribute(
   "src",
   `https://picsum.photos/${getRandomIntInclusive(200, 800)}`
+  
+)
+
+img.setAttribute("alt", "a random placeholder")
+
+google = document.getElementById('google')
+
+google.setAttribute(
+  'href',
+  `https://www.google.com`
 )
