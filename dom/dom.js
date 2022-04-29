@@ -32,3 +32,10 @@ google.setAttribute(
   'href',
   `https://www.google.com`
 )
+
+domcontinued = document.getElementById('domcontinued')
+
+domcontinued.setAttribute(
+  'href',
+  '/dom/domcontinued.html'
+)

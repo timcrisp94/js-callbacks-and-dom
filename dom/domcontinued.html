@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="domcontinued.js"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <title>dom continued</title>
+</head>
+<body>
+  <h2>dom continued</h2>
+  <h2>Classes</h2>
+  <p>The classList property offers a better approach for working with classes than the setAttributes methods. classList is an object with the following methods pertaining to classes</p>
+  <ul>
+    <li>add(className, className, ...)</li>
+    <li>remove(className, className, ...)</li>
+    <li>toggle(className)</li>
+    <li>contains(className)</li>
+    <li>replace(oldClass, newClass)</li>
+  </ul>
+  <div class="practice">
+    <h4>a ul for us to play with</h4>
+    <ul id="comments">
+      <li class="comment">first comment</li>
+      <li class="comment">second comment</li>
+      <li class="comment">third comment</li>
+    </ul>
+  </div>
+  <p>The following methods can be used to select multiple elements</p>
+  <ul>
+    <li>getElementsByTagName(namesString)</li>
+    <li>getElementsByClassName(namesString)</li>
+  </ul>
+  <p>The above method returns a live <a id="html-collection" href="">HTMLCollection</a></p>
+</body>
+</html>
