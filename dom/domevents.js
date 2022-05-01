@@ -34,6 +34,9 @@ btn.addEventListener('click', function(evt) {
   const inp = document.querySelector('input')
   // assign it to textContent of li
   li.textContent = inp.value
-  // attach new li to ul
-  document.querySelector('ul').appendChild(li)
+  if (inp.value !== "") {
+    // attach new li to ul
+    document.querySelector('ul').appendChild(li)
+    inp.value=""
+  }
 })
