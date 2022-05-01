@@ -31,7 +31,9 @@ const btn = document.querySelector('button')
 btn.addEventListener('click', function(evt) {
   const li = document.createElement('li')
   // get the text from the input field
+  const inp = document.querySelector('input')
   // assign it to textContent of li
-
+  li.textContent = inp.value
   // attach new li to ul
+  document.querySelector('ul').appendChild(li)
 })
